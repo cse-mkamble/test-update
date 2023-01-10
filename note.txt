@@ -1,0 +1,14 @@
+# initialize project
+npm init -y
+
+# dependencies install
+npm install --save-dev electron
+npm install --save-dev nodemon
+
+npm install --save-dev @electron-forge/cli
+npx electron-forge import
+
+npm install --save-dev @electron-forge/publisher-github
+[Environment]::SetEnvironmentVariable('GH_TOKEN','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')
+
+npm install update-electron-app
