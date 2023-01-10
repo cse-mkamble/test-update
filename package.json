@@ -1,6 +1,6 @@
 {
   "name": "aztec-admin",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "AZTEC admin application for web product manage",
   "main": "index.js",
   "engines": {
@@ -14,6 +14,10 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cse-mkamble/test-update.git"
   },
   "keywords": [],
   "author": "AZTEC Enterprise",
