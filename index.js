@@ -1,6 +1,7 @@
 const { app, Menu, BrowserWindow, MenuItem } = require('electron');
 const path = require('path');
 const { ApplicationMenuTemplate, ContextMenuTemplate } = require('./menu');
+require('update-electron-app')();
 
 // modify your existing createWindow() function
 const createWindow = () => {
